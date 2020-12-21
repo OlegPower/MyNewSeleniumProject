@@ -1,1 +1,6 @@
 /.idea/
+/.gradle/
+/src/main/
+/build/
+/.allure/
+/allure-results/
