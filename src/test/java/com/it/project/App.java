@@ -18,10 +18,9 @@ public class App {
         latestEmailTitle = new IncomingMailsPageHelper();
     }
 
-    public boolean login(Users users) {
-        login.login(users);
+    public boolean login(Users user) {
+        login.login(user);
         common.takeSnapShot();
-        return dashBoard.userIsLogined(users);
-
+        return dashBoard.userIsLogined(user);
     }
 }

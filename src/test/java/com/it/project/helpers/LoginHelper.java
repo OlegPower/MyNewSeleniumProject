@@ -18,9 +18,9 @@ public class LoginHelper extends LoginPage {
         btLogin.click();
 
     }
-    public void login(Users users){
-        log.info(String.format("User login userName-%s , password -%s",users.userName, users.password));
-        login(users.userName,users.password);
+    public void login(Users user){
+        log.info(String.format("User login userName-%s , password -%s",user.userName, user.password));
+        login(user.userName,user.password);
 
     }
 }
